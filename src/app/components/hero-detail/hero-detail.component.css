@@ -13,9 +13,7 @@ button {
     border-radius: 4px;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-}
-button:hover {
-    background-color: #cfd8dc;
+    margin-left: 5px;
 }
 button:disabled {
     background-color: #eee;

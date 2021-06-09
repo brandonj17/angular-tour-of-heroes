@@ -10,11 +10,15 @@
 </div>
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
+  
     <a routerLink="/detail/{{hero.id}}" style="text-decoration: none; color: #2c3a41;">
       <span class="badge">{{hero.id}}</span> {{hero.name}}
     </a>
-    <button class="delete" title="delete hero"
+  
+ 
+    <button class="btn btn-outline-danger btn-sm" title="delete hero" style="float:right;"
       (click)="delete(hero)">x</button>
+ 
   </li>
 </ul>
 
